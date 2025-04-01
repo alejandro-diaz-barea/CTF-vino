@@ -95,14 +95,19 @@ ul li {
 }
 
 
+
 @media (max-width: 768px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr); 
+        width: 90%;
+
     }
+
 }
 
 @media (max-width: 480px) {
-    .gallery {
+    .gallery {  
         grid-template-columns: 1fr; 
+        width: 95%;
     }
 }
